@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+db.sqlite3-journal
+
+# Media/uploads (optional, only if you don’t want to commit uploaded files)
+media/
+
+# Static files (collected)
+staticfiles/
+static/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code / JetBrains IDEs / etc.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations (optional – sometimes you want to commit these)
+# Uncomment if you prefer to ignore initial migrations:
+# **/migrations/*.py
+# **/migrations/*.pyc
